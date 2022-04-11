@@ -15,7 +15,7 @@ head = {
 
 
 def crawler(url):
-    r =requests.get(url=url,headers=head)
+    r = requests.get(url=url,headers=head)
     r.encoding = "gbk"
     data = r.text
 
